@@ -14,7 +14,7 @@ namespace NetOdtTest
         [Test]
         public void CompleteTest()
         {
-            var uri = new Uri("E:/testTest.odt");
+            var uri = new Uri("C:\\Projects\\NetOdt\\NetOdtTest\\TestFiles\\testTest.odt");
 
             using var odtDocument = new OdtDocument(uri);
 
@@ -28,7 +28,7 @@ namespace NetOdtTest
 
             odtDocument.AppendTable(GetTable());
 
-            odtDocument.AppendImage("E:/picture1.jpg", width: 10.5, height: 8.0);
+            odtDocument.AppendImage("C:\\Projects\\NetOdt\\NetOdtTest\\TestFiles\\kittyPicture.jpg", width: 10.5, height: 8.0);
 
             odtDocument.AppendLine("Unformatted", TextStyle.HeadingLevel01);
 
