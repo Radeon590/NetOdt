@@ -12,7 +12,7 @@
     <Description>Easy API to create ODT documents in .NET</Description>
     <Copyright>Tobias Sekan 2019-2020</Copyright>
     <PackageTags>dotnet odt netstandard20 opendocument</PackageTags>
-    <RepositoryUrl>https://github.com/TobiasSekan/NetOdt</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Radeon590/NetOdt</RepositoryUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <Version>1.0.0.0-alpha</Version>
     <FileVersion>1.0.0.0</FileVersion>
