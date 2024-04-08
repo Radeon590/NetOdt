@@ -1316,6 +1316,18 @@
             </summary>
             <param name="style">The style to check</param>
         </member>
+        <member name="M:NetOdt.OdtDocument.AppendPureNode(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="nodeAsString"></param>
+        </member>
+        <member name="M:NetOdt.OdtDocument.AppendPureNode(System.Xml.XmlNode)">
+            <summary>
+            
+            </summary>
+            <param name="node"></param>
+        </member>
         <member name="M:NetOdt.OdtDocument.SaveAs(System.String@)">
             <summary>
             Save the change content and create the ODT document into the given path

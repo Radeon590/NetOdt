@@ -14,14 +14,14 @@
     <PackageTags>dotnet odt netstandard20 opendocument</PackageTags>
     <RepositoryUrl>https://github.com/Radeon590/NetOdt</RepositoryUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>1.0.0.0-alpha</Version>
+    <Version>1.0.0.1-alpha</Version>
     <FileVersion>1.0.0.0</FileVersion>
 
   </PropertyGroup>
 
   <ItemGroup>
 
-    <None Include="../LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
 
     <None Update="Original\content.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -69,6 +69,7 @@ namespace NetOdtTest
 
             odtDocument.AppendTable(3, 3, "Fill me");
             odtDocument.AppendTable(3, 3, 0.00);
+            odtDocument.AppendPureNode("test");
 
             // on Dispose call the ODT document will automatic save and temporary working folder will delete
         }
